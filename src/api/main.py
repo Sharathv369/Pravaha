@@ -31,6 +31,8 @@ app.add_middleware(
 app.include_router(health.router)
 app.include_router(stations.router)
 app.include_router(validation.router)
+from src.api.routes.alerts import router as alerts_router
+app.include_router(alerts_router)
 
 
 # Global Exception Handlers
