@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_ridge_raw",
+  "model_name": "ridge",
+  "target_formulation": "raw",
+  "peak_weighting": false,
+  "huber_loss": false,
+  "description": "Ridge Baseline (Raw CFS)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 75703.21096631965,
+  "rmse_top10": 95772.70837903378,
+  "mae": 31040.27916827215,
+  "r2": 0.5752202141713956,
+  "composite_loss": 65221.15273389242,
+  "training_time_s": 0.25,
+  "n_val_samples": 24088
+}

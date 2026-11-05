@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_lightgbm_raw_weighted",
+  "model_name": "lightgbm",
+  "target_formulation": "raw",
+  "peak_weighting": true,
+  "huber_loss": false,
+  "description": "LightGBM Peak-Weighted (Raw CFS)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 63656.22853553936,
+  "rmse_top10": 48395.6963765465,
+  "mae": 15644.475054268918,
+  "r2": 0.6996573219195669,
+  "composite_loss": 43110.095338033476,
+  "training_time_s": 1.5,
+  "n_val_samples": 24088
+}

@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_lightgbm_log1p",
+  "model_name": "lightgbm",
+  "target_formulation": "log1p",
+  "peak_weighting": false,
+  "huber_loss": false,
+  "description": "LightGBM (log1p CFS)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 49668.92773426731,
+  "rmse_top10": 70471.96857936772,
+  "mae": 12373.273725946021,
+  "r2": 0.8171458550794424,
+  "composite_loss": 43483.816412706445,
+  "training_time_s": 1.54,
+  "n_val_samples": 24088
+}

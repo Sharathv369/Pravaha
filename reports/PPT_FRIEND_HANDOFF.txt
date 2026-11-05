@@ -1,0 +1,101 @@
+================================================================================
+PRAVAHA (प्रवाह) — HACKATHON PRESENTATION DESIGNER HANDOFF PACKAGE
+"PREDICT THE SURGE. PROTECT THE PEOPLE."
+================================================================================
+
+Hi! Here is the complete, fact-checked, and self-contained content package to 
+build the 5-slide PowerPoint presentation for project PRAVAHA.
+
+You do NOT need to inspect the codebase or ask the engineering team for technical 
+numbers. Everything has been audited, mathematically cross-verified, and organized 
+into the files below.
+
+--------------------------------------------------------------------------------
+1. QUICK START: WHAT FILES SHOULD YOU USE?
+--------------------------------------------------------------------------------
+
+1. PRIMARY MASTER FILE:
+   reports/PPT_MASTER_BRIEF.md
+   -> Contains the full project story, technical explanations, and data summary.
+
+2. SLIDE-BY-SLIDE READY-TO-COPY TEXT & LAYOUT BLUEPRINTS:
+   reports/PPT_SLIDE_CONTENT.md
+   -> Exact slide titles, concise bullet points (3-4 max), visual suggestions, 
+      large callout numbers, and fact-checked caveats for all 5 slides.
+
+3. SCREENSHOTS & VISUAL ASSETS:
+   reports/PPT_VISUAL_ASSET_INVENTORY.md
+   -> Shows which screenshot belongs on which slide and where to place annotations.
+   -> Actual PNG screenshots are located in:
+      reports/ui_backend_integration_screenshots/
+        - 01_dashboard.png  (Main Command Dashboard, hydrograph & limitation alert)
+        - 02_map.png        (Interactive River Map with 34 streamgauges)
+        - 03_alerts.png     (Advanced Flood Alert System & dispatch matrix)
+        - 04_community.png  (Citizen Reporting System & depth gauge)
+        - 05_relief.png     (NGO Flood Relief Hub & logistics coordinator)
+
+4. COMPLETE PRESENTER TALKING POINTS & TIMING:
+   reports/PPT_SPEAKER_NOTES.md
+   -> Word-for-word conversational delivery script (50-60s per slide, 4-5 min total)
+      with technical terms explained simply and slide transition phrases.
+
+5. JUDGE Q&A DEFENSE PREPARATION:
+   reports/PPT_JUDGE_QA.md
+   -> 22 anticipated technical judge questions with strong, grounded answers.
+
+6. AUDITED NUMBERS & METRIC TRACEABILITY:
+   reports/PPT_FACT_CHECK_REGISTER.md
+   -> Master table showing the exact source file and verification status for 
+      every single number cited in the deck.
+
+--------------------------------------------------------------------------------
+2. THE 5-SLIDE NARRATIVE STRUCTURE
+--------------------------------------------------------------------------------
+
+SLIDE 1 — THE PROBLEM: The Generalisation Crisis in River Discharge Forecasting
+- Focus: Why standard ML fails when transferring to unseen river systems.
+- Key concepts: Catchment scale mismatch (100x), extreme peak rarity (<2%), 
+  advective network leakage in traditional validation.
+- Visual: High-contrast conceptual split diagram (calibrated basin vs unseen basin).
+
+SLIDE 2 — OUR SOLUTION: Physics-Informed Specific Discharge & Truth Engine
+- Focus: How PRAVAHA solves the scale mismatch and guarantees scientific honesty.
+- Key formula: Specific Discharge q = Q / Drainage Area, transformed by log(q + 1).
+- Result: +348% R² improvement over raw models (0.1095 -> 0.4910).
+- Visual: Screenshot cutout of 01_dashboard.png highlighting the hydrograph curve 
+  and the Sacramento Historical Data Limitation Banner.
+
+SLIDE 3 — DATA FOUNDATION & ARCHITECTURE: 100% Real Hydrology & Modular Full-Stack
+- Focus: Zero synthetic data, federal data sources, and live backend-frontend flow.
+- Key metrics: 170,817 real daily records, 14 years (2010–2023), 34 USGS stations, 
+  23 river systems, 25/25 automated backend tests passing in 0.27s.
+- Visual: Two-column layout (Data scale cards on left, clean architecture diagram on right).
+
+SLIDE 4 — MACHINE LEARNING RESULTS: Rigorous Evaluation Across Unseen River Systems (LORSO)
+- Focus: Decisive benchmark performance under 23-fold Leave-One-River-System-Out cross-validation.
+- Winner 1 (Overall): LightGBM Log-Specific Discharge (Pooled R² = 0.4910, RMSE = 82,871 cfs, MAE = 24,644 cfs).
+- Winner 2 (Extreme Peaks): LightGBM Linear Specific Discharge (Peak RMSE = 155,136 cfs).
+- Forensic insight: Mississippi at Vicksburg accounts for 81.8% of pooled squared error; 
+  median station MAE across all other 32 rivers is just 2,623 cfs.
+- Visual: Clean benchmark comparison table with green highlight tags for winning metrics.
+
+SLIDE 5 — WORKING PRODUCT, HONEST IMPACT & ROADMAP: Science to Decision Support
+- Focus: The 5 operations screens, what works today vs prototype simulation, and roadmap.
+- Transparency: Clearly distinguishes live backend data (dashboard, hydrograph, map, leaderboard) 
+  from evaluation simulations (alerts, citizen reports, NGO relief).
+- Visual: 3-screen collage featuring 02_map.png as hero, with insets of 03_alerts.png and 05_relief.png.
+- Closing: "PREDICT THE SURGE. PROTECT THE PEOPLE."
+
+--------------------------------------------------------------------------------
+3. THREE CRITICAL FACT-CHECK RULES FOR THE DESIGNER
+--------------------------------------------------------------------------------
+
+1. NEVER claim the model is an "official competition winner". Call it the 
+   "leading experimental model under our LORSO validation benchmark".
+2. ALWAYS cite discharge units as "cfs" (cubic feet per second). Never say cubic meters.
+3. ALWAYS label R² as "Pooled R² (LORSO Validation) = 0.4910". Never say macro-averaged R².
+
+Have fun building the deck! The content in reports/PPT_SLIDE_CONTENT.md is 
+completely ready to copy and paste directly into your slide software.
+================================================================================
+

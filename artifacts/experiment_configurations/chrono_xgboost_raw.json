@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_xgboost_raw",
+  "model_name": "xgboost",
+  "target_formulation": "raw",
+  "peak_weighting": false,
+  "huber_loss": false,
+  "description": "XGBoost Standard (Raw CFS)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 60178.254871495636,
+  "rmse_top10": 55473.87307695809,
+  "mae": 14392.811380637337,
+  "r2": 0.7315802799061084,
+  "composite_loss": 43592.02614781314,
+  "training_time_s": 2.02,
+  "n_val_samples": 24088
+}

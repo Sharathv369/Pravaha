@@ -1,34 +1,44 @@
-# Logs
-logs
-*.log
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+frontend/.vite/
+.vite/
+.npm
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-# Diagnostic / Build output
-dist
-dist-ssr
-*.local
-.vite
-
-# Dependencies
-node_modules
-
-# Environment variables & secrets
+# Environment & Credentials
 .env
 .env.*
 !.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
 
-# Editor & OS files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# IDE & OS Files
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.swp
+*~
+
+# Temporary & Scratch Files
+scratch/
+*.log

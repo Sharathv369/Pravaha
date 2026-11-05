@@ -1,0 +1,6 @@
+model_name,target_formulation,overall_rmse,peak_rmse_top10,overall_mae,pooled_r2,variance_explained_pct,rmse_imp_vs_global_mean_pct,rmse_imp_vs_ridge_lorso_pct,nrmse_pct,pct_within_10_error_thresh50,pct_within_20_error_thresh50,pct_within_30_error_thresh50,pct_within_20_error_thresh10,peak_underprediction_pct,peak_overprediction_pct,peak_within_20_pct,peak_within_30_pct,n_validation_rows,n_eligible_thresh50,n_excluded_thresh50,n_peak_samples
+LightGBM Log-Specific Discharge,log_spec_q,82871.13,156593.84,24644.29,0.491,49.1,28.99,21.06,256.66,6.78,14.48,22.06,13.49,67.81,32.19,10.11,15.72,24088,21196,2892,2423
+LightGBM Specific Discharge,spec_q,86836.57,155136.83,26091.96,0.4411,44.11,25.6,17.28,268.94,7.05,14.62,21.99,13.69,62.98,37.02,14.11,21.38,24088,21196,2892,2423
+LightGBM Raw Peak-Weighted (2.5x),raw,108321.35,202091.42,32259.99,0.1303,13.03,7.19,-3.18,335.48,3.87,7.67,11.9,7.12,55.43,44.57,6.48,10.4,24088,21196,2892,2423
+LightGBM Raw Unweighted,raw,109609.53,204474.57,32312.13,0.1095,10.95,6.08,-4.41,339.47,3.74,7.55,11.51,7.05,57.49,42.51,5.98,8.96,24088,21196,2892,2423
+XGBoost Log1p,log1p,109842.15,203656.14,28995.81,0.1057,10.57,5.89,-4.63,340.19,5.68,11.86,18.3,11.4,80.19,19.81,8.75,13.62,24088,21196,2892,2423

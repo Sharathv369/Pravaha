@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_xgboost_log1p",
+  "model_name": "xgboost",
+  "target_formulation": "log1p",
+  "peak_weighting": false,
+  "huber_loss": false,
+  "description": "XGBoost (log1p CFS)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 50677.220172741014,
+  "rmse_top10": 61230.092133402635,
+  "mae": 11949.052970979814,
+  "r2": 0.809646525226498,
+  "composite_loss": 41029.72630331316,
+  "training_time_s": 2.47,
+  "n_val_samples": 24088
+}

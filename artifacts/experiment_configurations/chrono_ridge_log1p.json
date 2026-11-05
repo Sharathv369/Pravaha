@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_ridge_log1p",
+  "model_name": "ridge",
+  "target_formulation": "log1p",
+  "peak_weighting": false,
+  "huber_loss": false,
+  "description": "Ridge Baseline (log1p CFS)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 79970.22506227801,
+  "rmse_top10": 100946.73707350547,
+  "mae": 21275.36546774945,
+  "r2": 0.5259852269785432,
+  "composite_loss": 66527.18424051274,
+  "training_time_s": 0.25,
+  "n_val_samples": 24088
+}

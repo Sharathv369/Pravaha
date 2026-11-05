@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_lightgbm_log_spec_q",
+  "model_name": "lightgbm",
+  "target_formulation": "log_spec_q",
+  "peak_weighting": false,
+  "huber_loss": false,
+  "description": "LightGBM (log Specific Discharge)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 49298.195874771525,
+  "rmse_top10": 63853.04607616822,
+  "mae": 12707.423069528357,
+  "r2": 0.8198653365122501,
+  "composite_loss": 41416.67678666474,
+  "training_time_s": 1.87,
+  "n_val_samples": 24088
+}

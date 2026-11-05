@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_lightgbm_raw_huber",
+  "model_name": "lightgbm",
+  "target_formulation": "raw",
+  "peak_weighting": false,
+  "huber_loss": true,
+  "description": "LightGBM Huber Robust Loss (Raw CFS)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 116706.1354219041,
+  "rmse_top10": 208350.0120362774,
+  "mae": 55875.254570759695,
+  "r2": -0.009537874385324496,
+  "composite_loss": 120362.5086937968,
+  "training_time_s": 1.43,
+  "n_val_samples": 24088
+}

@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_blend_lgb_raw_and_weighted",
+  "model_name": "blend_ensemble",
+  "target_formulation": "raw",
+  "peak_weighting": true,
+  "huber_loss": false,
+  "description": "Ensemble Blend: 50% LightGBM Raw + 50% LightGBM Peak-Weighted",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 56924.177016232876,
+  "rmse_top10": 114096.81201707922,
+  "mae": 27269.76158515054,
+  "r2": 0.7598244679397994,
+  "composite_loss": 62452.666728647026,
+  "training_time_s": 0.05,
+  "n_val_samples": 24088
+}

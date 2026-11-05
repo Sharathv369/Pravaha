@@ -1,0 +1,47 @@
+======================================================================
+          PRAVAHA DATA QUALITY & INTEGRITY REPORT          
+======================================================================
+Total Rows: 25,565
+Total Unique Stations: 5
+Date Span: 2010-01-01 to 2023-12-31
+----------------------------------------------------------------------
+STATION BREAKDOWN:
+  * Station 01646500: 5,113 rows | Dates: 2010-01-01 to 2023-12-31 | Valid Discharge: 5,113 (100.0%)
+  * Station 02087500: 5,113 rows | Dates: 2010-01-01 to 2023-12-31 | Valid Discharge: 5,113 (100.0%)
+  * Station 07010000: 5,113 rows | Dates: 2010-01-01 to 2023-12-31 | Valid Discharge: 5,113 (100.0%)
+  * Station 08158000: 5,113 rows | Dates: 2010-01-01 to 2023-12-31 | Valid Discharge: 5,112 (100.0%)
+  * Station 11447650: 5,113 rows | Dates: 2010-01-01 to 2023-12-31 | Valid Discharge: 2,099 (41.1%)
+----------------------------------------------------------------------
+MISSING VALUES PER COLUMN (%):
+  * station_id            :       0 missing ( 0.00%)
+  * date                  :       0 missing ( 0.00%)
+  * discharge_cfs         :   3,015 missing (11.79%)
+  * precipitation_mm      :       0 missing ( 0.00%)
+  * temp_max_c            :       0 missing ( 0.00%)
+  * temp_min_c            :       0 missing ( 0.00%)
+  * soil_moisture         :       0 missing ( 0.00%)
+  * weather_source        :       0 missing ( 0.00%)
+  * drainage_area_sqmi    :       0 missing ( 0.00%)
+  * mean_elevation_ft     :       0 missing ( 0.00%)
+  * slope_pct             :       0 missing ( 0.00%)
+  * forest_cover_pct      :       0 missing ( 0.00%)
+----------------------------------------------------------------------
+DISCHARGE (cfs) SUMMARY STATISTICS:
+  * count     :       22,550.00
+  * mean      :       61,809.07
+  * std       :      126,339.49
+  * min       :           43.50
+  * 5%        :          157.00
+  * 25%       :          500.00
+  * 50%       :        3,870.00
+  * 75%       :       34,075.00
+  * 90%       :      243,000.00
+  * 95%       :      353,000.00
+  * 99%       :      561,020.00
+  * max       :      931,000.00
+----------------------------------------------------------------------
+UNIT & SANITY CHECKS:
+  * Negative discharge values: 0 (Must be 0)
+  * Precipitation range: [0.0 mm, 202.2 mm] (Realistic meteorological bounds)
+  * Temperature range: [-23.0 C, 48.1 C] (Realistic continental bounds)
+======================================================================

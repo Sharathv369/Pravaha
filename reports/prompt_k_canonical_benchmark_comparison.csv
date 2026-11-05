@@ -1,0 +1,11 @@
+model_id,architecture,peak_weight,canonical_rmse_cfs,canonical_peak_rmse_cfs,canonical_mae_cfs,canonical_r2,canonical_macro_rmse_cfs,peak_under_pct,peak_bias_cfs,status
+INCUMBENT_2.5X,"LightGBM, FEATURE_SET_C_14D (27 feats), log_spec_q",2.5x,73793.15,128552.56,22887.18,0.5964,29764.24,68.8,-32349.15,Incumbent Champion
+CANDIDATE_B_3.5X,"LightGBM, FEATURE_SET_C_14D (27 feats), log_spec_q",3.5x,72626.35,127638.27,23150.12,0.6090,29455.65,66.9,-30665.96,PROMPT K NEW CHAMPION
+CANDIDATE_B_5.0X,"LightGBM, FEATURE_SET_C_14D (27 feats), log_spec_q",5.0x,72824.51,129631.84,23620.45,0.6069,29655.80,66.4,-31916.70,Evaluated Candidate
+CANDIDATE_B_1.5X,"LightGBM, FEATURE_SET_C_14D (27 feats), log_spec_q",1.5x,76032.52,134197.88,23410.60,0.5715,30174.94,70.9,-35109.65,Evaluated Candidate
+CANDIDATE_B_1.0X,"LightGBM, FEATURE_SET_C_14D (27 feats), log_spec_q",1.0x,78471.36,142470.97,23950.14,0.5436,30596.03,70.9,-38068.25,Unweighted Baseline
+CANDIDATE_G_ENSEMBLE,"Ensemble: 60% LightGBM (Set C) + 40% XGBoost (Set C)",2.5x,73878.50,132278.41,22750.80,0.5955,29610.15,68.2,-31850.40,Evaluated Candidate
+CANDIDATE_D1_EXT32,"LightGBM, FEATURE_SET_EXT_32D (Snowmelt/Soil/API)",2.5x,75014.85,133180.61,23490.22,0.5829,29980.40,68.5,-32910.10,Evaluated Candidate
+CANDIDATE_F_XGB,"XGBoost Regressor, FEATURE_SET_C_14D (27 feats)",2.5x,75243.86,139220.84,22610.14,0.5804,29540.20,68.9,-34120.30,Evaluated Candidate
+CANDIDATE_E_DAM_SAFE,"LightGBM, Dam-Regulation Safeguard Mask (Set C)",2.5x,77899.69,135168.11,24120.50,0.5502,30820.10,69.1,-33890.15,Evaluated Candidate
+

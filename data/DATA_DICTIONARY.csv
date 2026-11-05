@@ -1,0 +1,19 @@
+column_name,dataset,original_field_code,meaning,unit,data_type,min,median,max,pct_missing,example_value,maps_to_organizer_schema
+station_id,USGS NWIS Site / Merged,site_no,USGS unique 8-digit river gaging station identifier,dimensionless,string/int64,01646500,07010000,11447650,0.00%,01646500,station_id
+date,All datasets / Merged,dateTime / date,Calendar date of observation (YYYY-MM-DD),date,string,2010-01-01,2016-12-31,2023-12-31,0.00%,2010-01-01,date
+discharge_cfs,USGS NWIS Daily Values,00060_00003,Daily mean volumetric river discharge rate,ft^3/s (cfs),float64,43.50,3870.00,931000.00,11.79%,22100.0,discharge_cfs
+precipitation_mm,NASA POWER Daily,PRECTOTCORR,Bias-corrected total daily surface precipitation,mm/day,float64,0.00,0.04,202.21,0.00%,0.24,precipitation_mm
+temp_max_c,NASA POWER Daily,T2M_MAX,Maximum daily air temperature at 2 meters above ground,deg C,float64,-16.81,23.59,48.10,0.00%,4.14,temp_max_c
+temp_min_c,NASA POWER Daily,T2M_MIN,Minimum daily air temperature at 2 meters above ground,deg C,float64,-23.00,10.98,28.60,0.00%,-3.29,temp_min_c
+soil_moisture,NASA POWER Daily,GWETTOP,Surface soil wetness fraction (0 to 5 cm depth; 0=dry to 1=saturated),dimensionless fraction (0-1),float64,0.09,0.63,0.98,0.00%,0.87,soil_moisture
+weather_source,Merged Metadata,N/A,Identifies the meteorological data provider for the row,categorical,string,NASA_POWER_MERRA2,NASA_POWER_MERRA2,NASA_POWER_MERRA2,0.00%,NASA_POWER_MERRA2,no
+drainage_area_sqmi,StreamStats / GAGES-II,DRNAREA / CONTDA,Total upstream catchment drainage area contributing flow to station,sq mi,float64,1150.00,23500.00,697000.00,0.00%,11560.0,drainage_area_sqmi
+mean_elevation_ft,StreamStats / GAGES-II,ELEV / ELEV_MEAN_M_BASIN,Mean catchment basin elevation above sea level,ft,float64,310.00,1180.00,3280.00,0.00%,1056.0,mean_elevation_ft
+slope_pct,StreamStats / GAGES-II,BSLD_PCT / BSLOPGM / SLOPE,Mean topographical catchment slope percentage,percent (%),float64,3.20,4.10,14.20,0.00%,8.4,slope_pct
+forest_cover_pct,StreamStats / GAGES-II,FOREST / FOR_PCT,Percentage of catchment area covered by forest canopy,percent (%),float64,14.50,44.10,58.20,0.00%,58.2,forest_cover_pct
+quality_cd,USGS NWIS Daily Values,qualifiers,USGS data verification status code (A=Approved; P=Provisional; e=estimated),code,string,A,A,A,11.79%,A,no
+latitude,USGS NWIS Site Service,dec_lat_va,Station latitude coordinate in WGS84/NAD83,decimal degrees,float64,30.2458,38.4557,38.9498,0.00%,38.9498,no
+longitude,USGS NWIS Site Service,dec_long_va,Station longitude coordinate in WGS84/NAD83,decimal degrees,float64,-121.5011,-90.1796,-77.1276,0.00%,-77.1276,no
+station_name,USGS NWIS Site Service,station_nm,Official USGS geographic station and river name,string,string,Colorado Rv at Austin TX,POTOMAC RIVER NEAR WASH DC,SACRAMENTO R A FREEPORT CA,0.00%,POTOMAC RIVER NEAR WASH DC,no
+state_code,USGS NWIS Site Service,state_cd,FIPS state numeric code,code,string,06,29,48,0.00%,24,no
+

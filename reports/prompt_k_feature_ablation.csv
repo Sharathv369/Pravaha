@@ -1,0 +1,6 @@
+feature_set,description,dev_rmse,dev_r2
+FEATURE_SET_A_BASE (19 feats),Direct meteorology + calendar + static catchment,84120.5,0.495
+FEATURE_SET_B_3D_7D (25 feats),Base + 3-day and 7-day rainfall memory,80310.2,0.539
+FEATURE_SET_C_14D (27 feats - Incumbent),Base + 3d/7d/14d rainfall memory,77676.57,0.7497
+FEATURE_SET_EXT_32D (32 feats),"Set C + Snowmelt proxy, soil rate-of-change, API_k90, dry days",73559.33,0.7756
+FEATURE_SET_EXT_34D (34 feats),Set D1 + 30-day cumulative rainfall memory,74818.92,0.7678

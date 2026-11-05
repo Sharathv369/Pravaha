@@ -1,0 +1,16 @@
+{
+  "experiment_id": "chrono_xgboost_spec_q",
+  "model_name": "xgboost",
+  "target_formulation": "spec_q",
+  "peak_weighting": false,
+  "huber_loss": false,
+  "description": "XGBoost (Specific Discharge)",
+  "validation_strategy": "Chronological (2010-2021 train -> 2022-2023 val)",
+  "rmse": 54774.84414847649,
+  "rmse_top10": 67961.90054683381,
+  "mae": 14268.257624320917,
+  "r2": 0.7776190703060135,
+  "composite_loss": 45152.15934830492,
+  "training_time_s": 1.86,
+  "n_val_samples": 24088
+}

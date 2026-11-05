@@ -1,0 +1,17 @@
+pandas
+numpy
+requests
+scikit-learn
+lightgbm
+xgboost
+optuna
+shap
+fastapi
+uvicorn
+pydantic
+joblib
+pyarrow
+matplotlib
+dataretrieval
+httpx
+
