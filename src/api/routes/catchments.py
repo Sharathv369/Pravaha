@@ -11,3 +11,4 @@ def get_catchment_profile(
     station_id: str = Path(..., description="8-digit USGS station ID")
 ) -> CatchmentProfileResponse:
     return catchment_service.get_catchment_profile(station_id)
+

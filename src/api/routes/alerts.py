@@ -27,3 +27,4 @@ def get_active_alerts() -> Dict[str, Any]:
             "status": "MONITORING" if p90 > 0 else "NORMAL"
         })
     return {"alert_count": len(alerts), "alerts": alerts}
+

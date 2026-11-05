@@ -21,3 +21,4 @@ def get_station(
     station_id: str = Path(..., min_length=7, max_length=15)
 ) -> StationDetailResponse:
     return station_service.get_station_detail(station_id)
+
